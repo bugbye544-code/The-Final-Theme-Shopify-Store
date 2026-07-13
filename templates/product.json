@@ -299,16 +299,72 @@
         "de158e68-5d0d-4819-a625-e2dabdff87d1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What’s in the Box & How to Use",
             "heading_size": "medium",
-            "icon": "check_box",
+            "icon": "inventory_2",
             "filled_icon": false,
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "",
+            "content": "<p><strong>In the box:</strong> your Glowty pen, a USB charging cable, and a quick-start guide.</p><p><strong>How to use it:</strong></p><ol><li>Cleanse and apply your usual serum or eye cream.</li><li>Glide Glowty over your under-eye and blemish-prone areas for 3 minutes.</li><li>That’s it — no rinsing, no downtime, ready for makeup right after.</li></ol>",
             "page": "",
             "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "glowty_trust_bar": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 13,
+            "desktop_text_size": 14,
+            "alignment": "center",
+            "text_1": "30-Day Money-Back Guarantee",
+            "icon_1": "verified_user",
+            "text_2": "Free Tracked Shipping",
+            "icon_2": "local_shipping",
+            "text_3": "Secure Checkout",
+            "icon_3": "lock",
+            "margin_top": 9,
+            "margin_bottom": 0
+          }
+        },
+        "glowty_payment_badges": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "visa,master,american_express,paypal,apple_pay,google_pay,shopify_pay",
+            "margin_top": 6,
+            "margin_bottom": 12
+          }
+        },
+        "glowty_tab_shipping": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Delivery",
+            "heading_size": "medium",
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Orders are processed within 1–2 business days. Every order ships with free tracked shipping — you’ll get your tracking number by email as soon as it leaves the warehouse.</p><p>Delivery estimates are shown above at checkout based on your location.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "glowty_tab_returns": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "30-Day Returns & Guarantee",
+            "heading_size": "medium",
+            "icon": "verified_user",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Use Glowty for 30 days as part of your real routine. If it hasn’t earned a place in your mornings, send it back for a full refund — no complicated hoops to jump through.</p><p>Contact us through the store’s contact page and we’ll sort out the return for you.</p>",
+            "page": "",
+            "margin_top": 0,
             "margin_bottom": 0
           }
         }
@@ -321,10 +377,14 @@
         "glowty_benefits",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
+        "glowty_trust_bar",
+        "glowty_payment_badges",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "reviews_8UgFbe",
-        "de158e68-5d0d-4819-a625-e2dabdff87d1"
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "glowty_tab_shipping",
+        "glowty_tab_returns"
       ],
       "custom_css": [],
       "settings": {
