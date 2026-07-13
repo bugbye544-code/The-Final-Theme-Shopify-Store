@@ -37,6 +37,37 @@
             "margin_bottom": 9
           }
         },
+        "glowty_subheadline": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 15,
+            "desktop_text_size": 17,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Blue light, sonic pulse, and gentle warmth, in one 3-minute ritual — no ice roller, no harsh cream, no extra concealer.",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "",
+            "filled_icon_2": false,
+            "icon_3": "",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -54,11 +85,12 @@
             "margin_bottom": 15
           }
         },
-        "description": {
-          "type": "description",
+        "glowty_benefits": {
+          "type": "emoji_benefits",
           "settings": {
-            "margin_top": 24,
-            "margin_bottom": 24
+            "benefits": "<p>✔️ Wake up to a calmer, more de-puffed look under your eyes</p><p>✔️ Help the look of blemish-prone skin without irritation</p><p>✔️ One simple step instead of five different tools</p>",
+            "margin_top": 6,
+            "margin_bottom": 6
           }
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
@@ -279,26 +311,6 @@
             "margin_top": 24,
             "margin_bottom": 0
           }
-        },
-        "glowty_subheadline": {
-          "type": "text",
-          "settings": {
-            "mobile_text_size": 15,
-            "desktop_text_size": 17,
-            "alignment": "left",
-            "text_1": "Blue light, sonic pulse, and gentle warmth, in one 3-minute ritual — no ice roller, no harsh cream, no extra concealer.",
-            "icon_1": "",
-            "icon_2": "",
-            "icon_3": ""
-          }
-        },
-        "glowty_benefits": {
-          "type": "emoji_benefits",
-          "settings": {
-            "benefits": "<p>✔️ Wake up to a calmer, more de-puffed look under your eyes</p><p>✔️ Help the look of blemish-prone skin without irritation</p><p>✔️ One simple step instead of five different tools</p>",
-            "margin_top": 6,
-            "margin_bottom": 6
-          }
         }
       },
       "block_order": [
@@ -307,7 +319,6 @@
         "glowty_subheadline",
         "price",
         "glowty_benefits",
-        "description",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
@@ -367,25 +378,119 @@
         "desktop_padding_bottom": 36
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
+    "glowty-pain": {
+      "type": "rich-text",
+      "blocks": {
+        "pain_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You already know the feeling — you look in the mirror and your eyes look like you didn’t sleep, even though you did. Or there’s a breakout that showed up overnight, right before the one day you didn’t need it. So you reach for concealer, more than you’d like to, just to feel like you can walk out the door.</p><p>You’ve tried the ice roller that rolled right off your face, the acne cream that left your skin red and angry, the LED mask that takes twenty minutes you don’t have. None of it was really <em>for</em> mornings like this.</p><p><strong>What if the fix took three minutes, not twenty — and actually met your skin where it’s at?</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "pain_text"
+      ],
       "settings": {
         "display_id": false,
-        "title": "You may also like",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
+      "type": "icons-with-content",
+      "blocks": {
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "flare",
+            "filled_icon": false,
+            "title": "415nm Blue Light",
+            "text": "<p>Targeted blue light works on the surface of blemish-prone areas to help calm their appearance.</p>"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "vibration",
+            "filled_icon": false,
+            "title": "Gentle Sonic Pulse",
+            "text": "<p>Works like a light massage — supporting microcirculation and lymphatic flow, which helps the look of morning puffiness ease up.</p>"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "thermostat",
+            "filled_icon": false,
+            "title": "Comfortable Warmth",
+            "text": "<p>A low, gentle warmth opens the door for your serum or eye cream to actually absorb, instead of just sitting on top of your skin.</p>"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Three Actions, One Pass,</strong>",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most tools pick one job. An ice roller cools. A spot cream targets blemishes. A serum tries to sink in on its own. Glowty does what those three things do — but at the same time, in one 3-minute pass, with one pen.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1": {
+          "type": "atc_button",
+          "settings": {
+            "button_label": "Shop Glowty"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
+        "icon_size": "m",
+        "icon_position": "next-to-title",
+        "icon_color": "accent-1",
+        "icon_heading_size": "h3",
+        "icon_text_alignment": "left",
+        "icons_desktop_layout": "1-column",
+        "icons_mobile_layout": "1-column",
+        "desktop_content_alignment": "left",
+        "layout": "image_first",
+        "mobile_layout": "text_first",
+        "hide_content_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 24
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
       }
     },
     "8beb6911-28c6-482c-976a-e5421ad3e8df": {
@@ -441,6 +546,24 @@
             "margin_bottom": 20
           }
         },
+        "glowty_benefit_3": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "face",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Less concealer, more actual skin",
+            "text": "<p>As your complexion looks more refreshed and even, you’ll likely reach for less coverage — not because you have to hide less, but because there’s less to hide.</p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
         "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-image-1": {
           "type": "image",
           "settings": {
@@ -488,24 +611,6 @@
             "text": "<p>Three minutes fits into a real morning. No extra step to skip when you’re running late — it becomes the step that’s easiest to keep.</p>",
             "margin_top": 20,
             "margin_bottom": 20
-          }
-        },
-        "glowty_benefit_3": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_2",
-            "visibility": "always-display",
-            "icon": "face",
-            "filled_icon": false,
-            "icon_size": "m",
-            "icon_position": "next-to-title",
-            "icon_color": "accent-1",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "left",
-            "title": "Less concealer, more actual skin",
-            "text": "<p>As your complexion looks more refreshed and even, you’ll likely reach for less coverage — not because you have to hide less, but because there’s less to hide.</p>",
-            "margin_top": 20,
-            "margin_bottom": 30
           }
         },
         "glowty_benefit_6": {
@@ -664,91 +769,6 @@
         "custom_colors_text": "#121212"
       }
     },
-    "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
-      "type": "icons-with-content",
-      "blocks": {
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "flare",
-            "filled_icon": false,
-            "title": "415nm Blue Light",
-            "text": "<p>Targeted blue light works on the surface of blemish-prone areas to help calm their appearance.</p>"
-          }
-        },
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "vibration",
-            "filled_icon": false,
-            "title": "Gentle Sonic Pulse",
-            "text": "<p>Works like a light massage — supporting microcirculation and lymphatic flow, which helps the look of morning puffiness ease up.</p>"
-          }
-        },
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon": "thermostat",
-            "filled_icon": false,
-            "title": "Comfortable Warmth",
-            "text": "<p>A low, gentle warmth opens the door for your serum or eye cream to actually absorb, instead of just sitting on top of your skin.</p>"
-          }
-        },
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "The TriGlow Method: <strong>Three Actions, One Pass, Three Minutes</strong>",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
-          }
-        },
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Most tools pick one job. An ice roller cools. A spot cream targets blemishes. A serum tries to sink in on its own. Glowty does what those three things do — but at the same time, in one 3-minute pass, with one pen.</p><p>None of this is one dramatic fix — it’s three small, sensible things happening together instead of separately. Your skin isn’t just “tired” or just “breaking out” on any given morning. It’s often both, or somewhere in between. Glowty is built for that in-between.</p>",
-            "text_style": "body"
-          }
-        },
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1": {
-          "type": "atc_button",
-          "settings": {
-            "button_label": "Shop Glowty"
-          }
-        }
-      },
-      "block_order": [
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1",
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2",
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3",
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1",
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1",
-        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1"
-      ],
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "color_scheme": "background-1",
-        "icon_size": "m",
-        "icon_position": "next-to-title",
-        "icon_color": "accent-1",
-        "icon_heading_size": "h3",
-        "icon_text_alignment": "left",
-        "icons_desktop_layout": "1-column",
-        "icons_mobile_layout": "1-column",
-        "desktop_content_alignment": "left",
-        "layout": "image_first",
-        "mobile_layout": "text_first",
-        "hide_content_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
     "55bd100e-3bbd-426c-a5cf-eed7b2a3706f": {
       "type": "testimonials",
       "blocks": {
@@ -834,6 +854,203 @@
         "custom_cards_colors_text": "#2e2a39"
       }
     },
+    "glowty-faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "glowty_faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this actually going to work, or is it another gadget I’ll stop using in two weeks?",
+            "icon": "help",
+            "filled_icon": false,
+            "row_content": "<p>Fair question — most of us have a drawer of things that didn’t stick. The honest answer is that Glowty is built to be used, not admired: it’s three minutes, it’s one device instead of three, and it fits into the routine you already have rather than asking you to build a new one. Consistency is what makes it work, and consistency is what a 3-minute ritual is actually designed for.</p>",
+            "page": ""
+          }
+        },
+        "glowty_faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My skin is really sensitive and reacts to almost everything. Will this irritate it?",
+            "icon": "help",
+            "filled_icon": false,
+            "row_content": "<p>This is exactly the skin Glowty was designed around. There are no harsh actives, no exfoliation, no chemical ingredients involved — just light, gentle sonic pulse, and low warmth. If you’re currently avoiding acne creams because of irritation, this is a meaningfully gentler category of approach.</p>",
+            "page": ""
+          }
+        },
+        "glowty_faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from an LED face mask or a jade roller I already own?",
+            "icon": "help",
+            "filled_icon": false,
+            "row_content": "<p>An LED mask treats your whole face passively over 10–20 minutes and does one job — light. A jade roller is manual and does one job — light massage. Glowty combines targeted light, sonic pulse, and warmth in one 3-minute pass, so you’re not choosing between speed and effectiveness, or between one tool and the next.</p>",
+            "page": ""
+          }
+        },
+        "glowty_faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How soon will I actually see a difference?",
+            "icon": "help",
+            "filled_icon": false,
+            "row_content": "<p>Skin changes gradually, not overnight — most people notice the puffiness and tired look easing within the first couple of weeks of consistent use, with more visible changes to overall complexion over 4–8 weeks. Think of it less like a quick fix and more like a habit that compounds.</p>",
+            "page": ""
+          }
+        },
+        "glowty_faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it safe to use every day?",
+            "icon": "help",
+            "filled_icon": false,
+            "row_content": "<p>Yes — it’s designed for daily use as part of your morning or evening routine. Each session is short and gentle by design, so there’s no downtime, no peeling, and nothing to work around.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "glowty_faq_1",
+        "glowty_faq_2",
+        "glowty_faq_3",
+        "glowty_faq_4",
+        "glowty_faq_5"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Your Questions, <strong>Answered</strong>",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "plus",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    },
+    "glowty-guarantee": {
+      "type": "rich-text",
+      "blocks": {
+        "g_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Try It <strong>Without the Risk</strong>",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "g_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We get it — you’ve been let down by beauty gadgets before, and we’re not asking you to take our word over your own experience. Use Glowty for 30 days as part of your real routine. If it hasn’t earned a place in your mornings, send it back for a full refund, no complicated hoops to jump through.</p><p><strong>You’re not committing to a device — you’re just giving your skin three minutes a day to see what happens.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "g_heading",
+        "g_text"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "glowty-final-cta": {
+      "type": "rich-text",
+      "blocks": {
+        "cta_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Your Mornings Deserve <strong>Three Minutes</strong>",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h0"
+          }
+        },
+        "cta_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don’t need a longer routine — you need the right three minutes. Glowty meets your skin where it actually is, puffy mornings, sudden breakouts, and all, without asking you to overhaul anything about how you live.</p>"
+          }
+        },
+        "cta_button": {
+          "type": "atc_button",
+          "settings": {
+            "button_label": "Shop Glowty Now",
+            "atc_product": "",
+            "atc_skip_cart": false
+          }
+        }
+      },
+      "block_order": [
+        "cta_heading",
+        "cta_text",
+        "cta_button"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 60,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
     "b321ab88-2b59-4dba-bade-54885c874ca5": {
       "type": "section-divider",
       "settings": {
@@ -854,168 +1071,6 @@
       "settings": {
         "display_id": false,
         "include_margins": true
-      }
-    },
-    "glowty-pain": {
-      "type": "rich-text",
-      "blocks": {
-        "pain_text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You already know the feeling — you look in the mirror and your eyes look like you didn’t sleep, even though you did. Or there’s a breakout that showed up overnight, right before the one day you didn’t need it. So you reach for concealer, more than you’d like to, just to feel like you can walk out the door.</p><p>You’ve tried the ice roller that rolled right off your face, the acne cream that left your skin red and angry, the LED mask that takes twenty minutes you don’t have. None of it was really <em>for</em> mornings like this.</p><p><strong>What if the fix took three minutes, not twenty — and actually met your skin where it’s at?</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "pain_text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": false,
-        "color_scheme": "background-2",
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
-    "glowty-faq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "glowty_faq_1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is this actually going to work, or is it another gadget I’ll stop using in two weeks?",
-            "icon": "help",
-            "filled_icon": false,
-            "row_content": "<p>Fair question — most of us have a drawer of things that didn’t stick. The honest answer is that Glowty is built to be used, not admired: it’s three minutes, it’s one device instead of three, and it fits into the routine you already have rather than asking you to build a new one. Consistency is what makes it work, and consistency is what a 3-minute ritual is actually designed for.</p>"
-          }
-        },
-        "glowty_faq_2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "My skin is really sensitive and reacts to almost everything. Will this irritate it?",
-            "icon": "help",
-            "filled_icon": false,
-            "row_content": "<p>This is exactly the skin Glowty was designed around. There are no harsh actives, no exfoliation, no chemical ingredients involved — just light, gentle sonic pulse, and low warmth. If you’re currently avoiding acne creams because of irritation, this is a meaningfully gentler category of approach.</p>"
-          }
-        },
-        "glowty_faq_3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How is this different from an LED face mask or a jade roller I already own?",
-            "icon": "help",
-            "filled_icon": false,
-            "row_content": "<p>An LED mask treats your whole face passively over 10–20 minutes and does one job — light. A jade roller is manual and does one job — light massage. Glowty combines targeted light, sonic pulse, and warmth in one 3-minute pass, so you’re not choosing between speed and effectiveness, or between one tool and the next.</p>"
-          }
-        },
-        "glowty_faq_4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How soon will I actually see a difference?",
-            "icon": "help",
-            "filled_icon": false,
-            "row_content": "<p>Skin changes gradually, not overnight — most people notice the puffiness and tired look easing within the first couple of weeks of consistent use, with more visible changes to overall complexion over 4–8 weeks. Think of it less like a quick fix and more like a habit that compounds.</p>"
-          }
-        },
-        "glowty_faq_5": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is it safe to use every day?",
-            "icon": "help",
-            "filled_icon": false,
-            "row_content": "<p>Yes — it’s designed for daily use as part of your morning or evening routine. Each session is short and gentle by design, so there’s no downtime, no peeling, and nothing to work around.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "glowty_faq_1",
-        "glowty_faq_2",
-        "glowty_faq_3",
-        "glowty_faq_4",
-        "glowty_faq_5"
-      ],
-      "settings": {
-        "caption": "",
-        "title": "Your Questions, <strong>Answered</strong>",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
-        "row_heading_size": "medium",
-        "collapse_icon": "plus",
-        "display_top_border": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "glowty-guarantee": {
-      "type": "rich-text",
-      "blocks": {
-        "g_heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Try It <strong>Without the Risk</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "g_text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We get it — you’ve been let down by beauty gadgets before, and we’re not asking you to take our word over your own experience. Use Glowty for 30 days as part of your real routine. If it hasn’t earned a place in your mornings, send it back for a full refund, no complicated hoops to jump through.</p><p><strong>You’re not committing to a device — you’re just giving your skin three minutes a day to see what happens.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "g_heading",
-        "g_text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": false,
-        "color_scheme": "background-2",
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
-    "glowty-final-cta": {
-      "type": "rich-text",
-      "blocks": {
-        "cta_heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Your Mornings Deserve <strong>Three Minutes</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "cta_text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You don’t need a longer routine — you need the right three minutes. Glowty meets your skin where it actually is, puffy mornings, sudden breakouts, and all, without asking you to overhaul anything about how you live.</p>"
-          }
-        },
-        "cta_button": {
-          "type": "atc_button",
-          "settings": {
-            "button_label": "Shop Glowty Now",
-            "atc_skip_cart": false
-          }
-        }
-      },
-      "block_order": [
-        "cta_heading",
-        "cta_text",
-        "cta_button"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 52,
-        "padding_bottom": 60
       }
     }
   },
