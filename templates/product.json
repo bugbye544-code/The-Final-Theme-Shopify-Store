@@ -569,6 +569,7 @@
           "settings": {
             "column": "col_3",
             "visibility": "always-display",
+            "image": "shopify://shop_images/image_eed09f6e-6f07-4cb7-8d57-f5dd2fb3acff.webp",
             "width": 100,
             "alignment": "center",
             "mobile_alignment": "center",
